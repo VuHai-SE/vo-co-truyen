@@ -1043,6 +1043,9 @@ video {
 .max-w-3xl {
   max-width: 48rem;
 }
+.max-w-4xl {
+  max-width: 56rem;
+}
 .max-w-\[--skeleton-width\] {
   max-width: var(--skeleton-width);
 }
@@ -1054,9 +1057,6 @@ video {
 }
 .max-w-none {
   max-width: none;
-}
-.max-w-4xl {
-  max-width: 56rem;
 }
 .flex-1 {
   flex: 1 1 0%;
@@ -1533,10 +1533,6 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 .pb-3 {
   padding-bottom: 0.75rem;
@@ -2981,10 +2977,6 @@ video {
 
   .md\:h-auto {
     height: auto;
-  }
-
-  .md\:h-80 {
-    height: 20rem;
   }
 
   .md\:w-1\/2 {
