@@ -39,16 +39,16 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-red-600 hover:bg-red-700">
-              Tham gia ngay!
+              <Link href="#contact">Tham gia ngay!</Link>
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/20">
-              Xem video giới thiệu
+              <Link href="#video">Xem video giới thiệu</Link>
             </Button>
           </div>
         </div>
       </section>
       {/* Video Section */}
-      <section className="py-16 bg-gray-50">
+      <section id="video" className="py-16 bg-gray-50">
         <div className="container px-4">
           <h2 className="text-3xl font-bold mb-8 text-center text-red-700">Video Giới Thiệu Võ Cổ Truyền Việt Nam</h2>
           <div className="aspect-video w-full max-w-4xl mx-auto rounded-lg overflow-hidden shadow-xl">
@@ -140,7 +140,7 @@ export default function Home() {
                 <div className="md:w-1/2 md:pl-12 mb-4 md:mb-0">
                   <h3 className="text-xl font-bold text-red-600">09/1990</h3>
                   <p className="text-gray-700">
-                  Hội cử các Võ sư tham gia cùng đoàn võ thuật TP.HCM sang Belarus giao lưu biểu diễn và huấn luyện, đào tạo các VĐV nước bạn, tạo đà phát triển ra nhiều nước trên thế giới.
+                    Hội cử các Võ sư tham gia cùng đoàn võ thuật TP.HCM sang Belarus giao lưu biểu diễn và huấn luyện, đào tạo các VĐV nước bạn, tạo đà phát triển ra nhiều nước trên thế giới.
                   </p>
                 </div>
                 <div className="z-10 w-10 h-10 rounded-full bg-red-600 flex items-center justify-center">
@@ -163,9 +163,9 @@ export default function Home() {
                 <div className="md:w-1/2 md:pr-12 md:text-right mb-4 md:mb-0">
                   <h3 className="text-xl font-bold text-red-600">24/04/2014</h3>
                   <p className="text-gray-700">
-                  🔹Ủy ban Nhân dân TP.HCM ban hành Quyết định số 2037/QĐ-UBND về việc thành lập Liên đoàn Võ Cổ truyền TP.HCM. 
-                  Liên đoàn hoạt động theo điều lệ được UBND TP phê duyệt và chịu sự quản lý nhà nước của Sở Văn hóa, Thể thao và Du lịch.<br/>
-                  🔹Ban chấp hành nhiệm kỳ 1 năm 2014-2018 do Võ sư Lê Kim Hòa làm chủ tịch.
+                    🔹Ủy ban Nhân dân TP.HCM ban hành Quyết định số 2037/QĐ-UBND về việc thành lập Liên đoàn Võ Cổ truyền TP.HCM.
+                    Liên đoàn hoạt động theo điều lệ được UBND TP phê duyệt và chịu sự quản lý nhà nước của Sở Văn hóa, Thể thao và Du lịch.<br />
+                    🔹Ban chấp hành nhiệm kỳ 1 năm 2014-2018 do Võ sư Lê Kim Hòa làm chủ tịch.
                   </p>
                 </div>
                 <div className="z-10 w-10 h-10 rounded-full bg-red-600 flex items-center justify-center">
@@ -188,9 +188,9 @@ export default function Home() {
                 <div className="md:w-1/2 md:pl-12 mb-4 md:mb-0">
                   <h3 className="text-xl font-bold text-red-600">2018</h3>
                   <p className="text-gray-700">
-                  🔹Ngày 30-06-2018, Đại hội BCH nhiệm kỳ 2 năm 2018-2023 do ĐVS QT Lê Kim Hòa làm chủ tịch và 27 ủy viên.<br/>
-                  🔹Ngày 07-12-2018 Thành lập Hội đồng Võ Sư TP.HCM.<br/>
-                  🔹Ngày 28-12-2018 Thành lập Phân viện-Học viện VCT Thế Giới.
+                    🔹Ngày 30-06-2018, Đại hội BCH nhiệm kỳ 2 năm 2018-2023 do ĐVS QT Lê Kim Hòa làm chủ tịch và 27 ủy viên.<br />
+                    🔹Ngày 07-12-2018 Thành lập Hội đồng Võ Sư TP.HCM.<br />
+                    🔹Ngày 28-12-2018 Thành lập Phân viện-Học viện VCT Thế Giới.
                   </p>
                 </div>
                 <div className="z-10 w-10 h-10 rounded-full bg-red-600 flex items-center justify-center">
@@ -213,9 +213,9 @@ export default function Home() {
                 <div className="md:w-1/2 md:pr-12 md:text-right mb-4 md:mb-0">
                   <h3 className="text-xl font-bold text-red-600">2023-2024</h3>
                   <p className="text-gray-700">
-                  🔹Ngày 11-06-2023 Đại hội BCH nhiệm kỳ 3 năm 2023-2028 do ĐVS QT Lê Kim Hòa làm chủ tịch và 33 ủy viên.<br/>
-                  🔹Ngày 30-07-2024 do tuổi cao, Thầy ĐVS QT Lê Kim Hòa qua đời.<br/>
-                  🔹Ngày 30 tháng 8 năm 2024, tại hội nghị bất thường Ban chấp hành Liên đoàn, bà Hà Thị Yến Oanh được bầu giữ chức vụ Chủ tịch Liên đoàn Võ Cổ truyền TP.HCM nhiệm kỳ 3 năm 2023-2028. 
+                    🔹Ngày 11-06-2023 Đại hội BCH nhiệm kỳ 3 năm 2023-2028 do ĐVS QT Lê Kim Hòa làm chủ tịch và 33 ủy viên.<br />
+                    🔹Ngày 30-07-2024 do tuổi cao, Thầy ĐVS QT Lê Kim Hòa qua đời.<br />
+                    🔹Ngày 30 tháng 8 năm 2024, tại hội nghị bất thường Ban chấp hành Liên đoàn, bà Hà Thị Yến Oanh được bầu giữ chức vụ Chủ tịch Liên đoàn Võ Cổ truyền TP.HCM nhiệm kỳ 3 năm 2023-2028.
                   </p>
                 </div>
                 <div className="z-10 w-10 h-10 rounded-full bg-red-600 flex items-center justify-center">
