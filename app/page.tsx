@@ -47,6 +47,21 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Video Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="container px-4">
+          <h2 className="text-3xl font-bold mb-8 text-center text-red-700">Video Giới Thiệu Võ Cổ Truyền Việt Nam</h2>
+          <div className="aspect-video w-full max-w-4xl mx-auto rounded-lg overflow-hidden shadow-xl">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/D41eauya8VM"
+              title="Video Giới Thiệu Võ Cổ Truyền Việt Nam"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
 
       {/* Introduction Section */}
       <section id="about" className="py-16 bg-white">
@@ -570,7 +585,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="py-footer bg-gray-900 text-white">
+      <footer className="py-4 bg-gray-900 text-white">
         <div className="container px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
