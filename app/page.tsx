@@ -15,15 +15,17 @@ import {
   Phone,
   MapPin,
 } from "lucide-react"
+import { MainNav } from "@/components/main-nav"
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
+      <MainNav />
       {/* Hero Section */}
-      <section className="relative h-[80vh] flex items-center justify-center overflow-hidden">
+      <section id="home" className="relative h-[80vh] pt-20 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/home-page-01.jpg?height=1080&width=1920"
             alt="Võ Cổ Truyền Việt Nam"
             fill
             className="object-cover brightness-50"
@@ -31,7 +33,7 @@ export default function Home() {
           />
         </div>
         <div className="container relative z-10 text-center text-white px-4">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">✨ Võ Cổ Truyền Việt Nam ✨</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4">Võ Cổ Truyền Việt Nam</h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
             Hành trình gìn giữ và phát triển tinh hoa võ thuật Việt Nam, từ lịch sử hào hùng đến sân chơi quốc tế.
           </p>
@@ -47,7 +49,7 @@ export default function Home() {
       </section>
 
       {/* Introduction Section */}
-      <section className="py-16 bg-white">
+      <section id="about" className="py-16 bg-white">
         <div className="container px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
@@ -73,7 +75,7 @@ export default function Home() {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/placeholder.svg?height=800&width=600"
+                src="/homepage-02.jpg?height=800&width=600"
                 alt="Lịch sử Võ Cổ Truyền"
                 fill
                 className="object-cover"
@@ -84,7 +86,7 @@ export default function Home() {
       </section>
 
       {/* Timeline Section */}
-      <section className="py-16 bg-gray-50">
+      <section id="training" className="py-16 bg-gray-50">
         <div className="container px-4">
           <h2 className="text-3xl font-bold mb-12 text-center text-red-700">
             Cột Mốc Quan Trọng Của Liên Đoàn Võ Cổ Truyền TP.HCM
@@ -109,7 +111,7 @@ export default function Home() {
                 <div className="md:w-1/2 md:pl-12 mt-4 md:mt-0">
                   <div className="h-32 md:h-40 relative rounded-lg overflow-hidden shadow-md">
                     <Image
-                      src="/placeholder.svg?height=300&width=500"
+                      src="/homepage-03.jpg?height=300&width=500"
                       alt="Thành lập Hội Võ Cổ Truyền TP.HCM"
                       fill
                       className="object-cover"
@@ -121,9 +123,9 @@ export default function Home() {
               {/* 1990 */}
               <div className="flex flex-col md:flex-row-reverse items-center">
                 <div className="md:w-1/2 md:pl-12 mb-4 md:mb-0">
-                  <h3 className="text-xl font-bold text-red-600">1990</h3>
+                  <h3 className="text-xl font-bold text-red-600">09/1990</h3>
                   <p className="text-gray-700">
-                    Hội cử các Võ sư tham gia cùng đoàn võ thuật TP.HCM sang Belarus giao lưu biểu diễn và huấn luyện.
+                  Hội cử các Võ sư tham gia cùng đoàn võ thuật TP.HCM sang Belarus giao lưu biểu diễn và huấn luyện, đào tạo các VĐV nước bạn, tạo đà phát triển ra nhiều nước trên thế giới.
                   </p>
                 </div>
                 <div className="z-10 w-10 h-10 rounded-full bg-red-600 flex items-center justify-center">
@@ -132,7 +134,7 @@ export default function Home() {
                 <div className="md:w-1/2 md:pr-12 md:text-right mt-4 md:mt-0">
                   <div className="h-32 md:h-40 relative rounded-lg overflow-hidden shadow-md">
                     <Image
-                      src="/placeholder.svg?height=300&width=500"
+                      src="/giao-luu-quoc-te.jpg?height=300&width=500"
                       alt="Giao lưu quốc tế"
                       fill
                       className="object-cover"
@@ -144,10 +146,11 @@ export default function Home() {
               {/* 2014 */}
               <div className="flex flex-col md:flex-row items-center">
                 <div className="md:w-1/2 md:pr-12 md:text-right mb-4 md:mb-0">
-                  <h3 className="text-xl font-bold text-red-600">2014</h3>
+                  <h3 className="text-xl font-bold text-red-600">24/04/2014</h3>
                   <p className="text-gray-700">
-                    Chính thức thành lập Liên đoàn Võ Cổ Truyền TP.HCM. Ban chấp hành nhiệm kỳ 1 năm 2014-2018 do Võ sư
-                    Lê Kim Hòa làm chủ tịch.
+                  🔹Ủy ban Nhân dân TP.HCM ban hành Quyết định số 2037/QĐ-UBND về việc thành lập Liên đoàn Võ Cổ truyền TP.HCM. 
+                  Liên đoàn hoạt động theo điều lệ được UBND TP phê duyệt và chịu sự quản lý nhà nước của Sở Văn hóa, Thể thao và Du lịch.<br/>
+                  🔹Ban chấp hành nhiệm kỳ 1 năm 2014-2018 do Võ sư Lê Kim Hòa làm chủ tịch.
                   </p>
                 </div>
                 <div className="z-10 w-10 h-10 rounded-full bg-red-600 flex items-center justify-center">
@@ -156,7 +159,7 @@ export default function Home() {
                 <div className="md:w-1/2 md:pl-12 mt-4 md:mt-0">
                   <div className="h-32 md:h-40 relative rounded-lg overflow-hidden shadow-md">
                     <Image
-                      src="/placeholder.svg?height=300&width=500"
+                      src="/2014-01.jpg?height=300&width=500"
                       alt="Thành lập Liên đoàn Võ Cổ Truyền TP.HCM"
                       fill
                       className="object-cover"
@@ -170,8 +173,9 @@ export default function Home() {
                 <div className="md:w-1/2 md:pl-12 mb-4 md:mb-0">
                   <h3 className="text-xl font-bold text-red-600">2018</h3>
                   <p className="text-gray-700">
-                    Đại hội BCH nhiệm kỳ 2 năm 2018-2023. Thành lập Hội đồng Võ Sư TP.HCM và Phân viện-Học viện VCT Thế
-                    Giới.
+                  🔹Ngày 30-06-2018, Đại hội BCH nhiệm kỳ 2 năm 2018-2023 do ĐVS QT Lê Kim Hòa làm chủ tịch và 27 ủy viên.<br/>
+                  🔹Ngày 07-12-2018 Thành lập Hội đồng Võ Sư TP.HCM.<br/>
+                  🔹Ngày 28-12-2018 Thành lập Phân viện-Học viện VCT Thế Giới.
                   </p>
                 </div>
                 <div className="z-10 w-10 h-10 rounded-full bg-red-600 flex items-center justify-center">
@@ -180,7 +184,7 @@ export default function Home() {
                 <div className="md:w-1/2 md:pr-12 md:text-right mt-4 md:mt-0">
                   <div className="h-32 md:h-40 relative rounded-lg overflow-hidden shadow-md">
                     <Image
-                      src="/placeholder.svg?height=300&width=500"
+                      src="/dai-hoi-bch-nhiem-ky-2.JPG?height=300&width=500"
                       alt="Đại hội BCH nhiệm kỳ 2"
                       fill
                       className="object-cover"
@@ -194,8 +198,9 @@ export default function Home() {
                 <div className="md:w-1/2 md:pr-12 md:text-right mb-4 md:mb-0">
                   <h3 className="text-xl font-bold text-red-600">2023-2024</h3>
                   <p className="text-gray-700">
-                    Đại hội BCH nhiệm kỳ 3 năm 2023-2028. Sau khi cố ĐVS QT Lê Kim Hòa qua đời, bà Hà Thị Yến Oanh được
-                    bầu làm Chủ tịch Liên đoàn.
+                  🔹Ngày 11-06-2023 Đại hội BCH nhiệm kỳ 3 năm 2023-2028 do ĐVS QT Lê Kim Hòa làm chủ tịch và 33 ủy viên.<br/>
+                  🔹Ngày 30-07-2024 do tuổi cao, Thầy ĐVS QT Lê Kim Hòa qua đời.<br/>
+                  🔹Ngày 30 tháng 8 năm 2024, tại hội nghị bất thường Ban chấp hành Liên đoàn, bà Hà Thị Yến Oanh được bầu giữ chức vụ Chủ tịch Liên đoàn Võ Cổ truyền TP.HCM nhiệm kỳ 3 năm 2023-2028. 
                   </p>
                 </div>
                 <div className="z-10 w-10 h-10 rounded-full bg-red-600 flex items-center justify-center">
@@ -204,7 +209,7 @@ export default function Home() {
                 <div className="md:w-1/2 md:pl-12 mt-4 md:mt-0">
                   <div className="h-32 md:h-40 relative rounded-lg overflow-hidden shadow-md">
                     <Image
-                      src="/placeholder.svg?height=300&width=500"
+                      src="/2023-2024.JPG?height=300&width=500"
                       alt="Đại hội BCH nhiệm kỳ 3"
                       fill
                       className="object-cover"
@@ -218,7 +223,7 @@ export default function Home() {
       </section>
 
       {/* Activities Section */}
-      <section className="py-16 bg-white">
+      <section id="events" className="py-16 bg-white">
         <div className="container px-4">
           <h2 className="text-3xl font-bold mb-12 text-center text-red-700">
             Những Hoạt Động Tiêu Biểu - Đưa Võ Cổ Truyền Vươn Xa
@@ -237,7 +242,7 @@ export default function Home() {
                 <Card className="overflow-hidden">
                   <div className="h-48 relative">
                     <Image
-                      src="/placeholder.svg?height=400&width=600"
+                      src="/vct-toan-quoc.jpg?height=400&width=600"
                       alt="Giải Vô địch Võ Cổ Truyền Toàn quốc"
                       fill
                       className="object-cover"
@@ -258,7 +263,7 @@ export default function Home() {
                 <Card className="overflow-hidden">
                   <div className="h-48 relative">
                     <Image
-                      src="/placeholder.svg?height=400&width=600"
+                      src="/giai-tre.jpg?height=400&width=600"
                       alt="Giải Trẻ Võ Cổ Truyền TP.HCM"
                       fill
                       className="object-cover"
@@ -279,7 +284,7 @@ export default function Home() {
                 <Card className="overflow-hidden">
                   <div className="h-48 relative">
                     <Image
-                      src="/placeholder.svg?height=400&width=600"
+                      src="/vct-tphcm-mo-rong.JPG?height=400&width=600"
                       alt="Giải Võ Cổ truyền TP.HCM Mở rộng"
                       fill
                       className="object-cover"
@@ -304,7 +309,7 @@ export default function Home() {
                 <Card className="overflow-hidden">
                   <div className="h-48 relative">
                     <Image
-                      src="/placeholder.svg?height=400&width=600"
+                      src="/lien-hoan-vct-quoc-te.jpg?height=400&width=600"
                       alt="Liên hoan Võ thuật Quốc tế TP.HCM"
                       fill
                       className="object-cover"
@@ -325,7 +330,7 @@ export default function Home() {
                 <Card className="overflow-hidden">
                   <div className="h-48 relative">
                     <Image
-                      src="/placeholder.svg?height=400&width=600"
+                      src="/lien-hoan-vct-tphcm.jpg?height=400&width=600"
                       alt="Hội diễn Võ Cổ Truyền TP.HCM"
                       fill
                       className="object-cover"
@@ -403,7 +408,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
                   <div className="h-64 md:h-auto relative">
                     <Image
-                      src="/placeholder.svg?height=600&width=800"
+                      src="/tinh-hoa-vo-co-truyen-viet-nam.jpg?height=600&width=800"
                       alt="Võ Cổ Truyền trong quân đội"
                       fill
                       className="object-cover"
@@ -431,18 +436,18 @@ export default function Home() {
       </section>
 
       {/* Key Figures Section */}
-      <section className="py-16 bg-gray-50">
+      <section id="news" className="py-16 bg-gray-50">
         <div className="container px-4">
           <h2 className="text-3xl font-bold mb-12 text-center text-red-700">
             Những Nhân Vật Tiêu Biểu - Lãnh Đạo Liên Đoàn
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <Card className="overflow-hidden">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-0">
+            <Card className="overflow-hidden h-full">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-0 h-full">
                 <div className="h-64 md:h-auto relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=300"
+                    src="/Thay-Le-Kim-Hoa.jpg?height=400&width=300"
                     alt="Cố ĐVS QT Lê Kim Hòa"
                     fill
                     className="object-cover"
@@ -476,17 +481,17 @@ export default function Home() {
               </div>
             </Card>
 
-            <Card className="overflow-hidden">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-0">
+            <Card className="overflow-hidden h-full">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-0 h-full">
                 <div className="h-64 md:h-auto relative">
                   <Image
-                    src="/placeholder.svg?height=400&width=300"
+                    src="/dvs-Ha-Thi-Yen-Oanh.JPG?height=400&width=300"
                     alt="ĐVS Hà Thị Yến Oanh"
                     fill
                     className="object-cover"
                   />
                 </div>
-                <div className="md:col-span-2 p-6">
+                <div className="md:col-span-2 p-6 h-full">
                   <h3 className="text-xl font-bold mb-2">ĐVS Hà Thị Yến Oanh</h3>
                   <ul className="space-y-2 text-gray-700">
                     <li className="flex items-start">
@@ -514,8 +519,8 @@ export default function Home() {
       </section>
 
       {/* Call to Action Section */}
-      <section className="py-16 bg-red-700 text-white">
-        <div className="container px-4 text-center">
+      <section id="contact" className="py-17 bg-red-700 text-white">
+        <div className="container px-4-1 text-center">
           <h2 className="text-3xl font-bold mb-6">✨ Bạn muốn học Võ Cổ Truyền? Hãy tham gia ngay! ✨</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Tham gia cùng chúng tôi để trải nghiệm tinh hoa võ thuật Việt Nam, rèn luyện thể chất và tinh thần.
@@ -565,7 +570,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 bg-gray-900 text-white">
+      <footer className="py-footer bg-gray-900 text-white">
         <div className="container px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
