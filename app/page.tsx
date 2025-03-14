@@ -41,7 +41,7 @@ export default function Home() {
             <Button size="lg" className="bg-red-600 hover:bg-red-700">
               <Link href="#contact">Tham gia ngay!</Link>
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/20">
+            <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/20">
               <Link href="#video">Xem video giới thiệu</Link>
             </Button>
           </div>
@@ -485,8 +485,8 @@ export default function Home() {
                 <Phone className="w-8 h-8" />
               </div>
               <h3 className="text-xl font-bold mb-2">Liên hệ trực tiếp</h3>
-              <p>Hotline: 090xxxxxxx</p>
-              <p>Email: info@vocotruyen.com</p>
+              <p>Hotline: 0907 399 567</p>
+              <p>Email: vocotruyentphcmvn@gmail.com</p>
             </div>
 
             <div className="flex flex-col items-center">

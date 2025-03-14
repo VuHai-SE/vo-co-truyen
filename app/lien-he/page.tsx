@@ -21,12 +21,12 @@ export default function LienHe() {
               <p>
                 <strong>Email:</strong>
                 <br />
-                info@vocotruyen.com
+                vocotruyentphcmvn@gmail.com
               </p>
               <p>
                 <strong>Điện thoại:</strong>
                 <br />
-                090xxxxxxx
+                0907 399 567
               </p>
             </div>
           </div>
