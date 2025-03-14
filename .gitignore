@@ -5,6 +5,7 @@
 
 # next.js
 /.next/
+!/next/static/css/app/layout.css
 /out/
 
 # production

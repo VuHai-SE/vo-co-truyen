@@ -535,7 +535,7 @@ export default function Home() {
 
       {/* Call to Action Section */}
       <section id="contact" className="py-17 bg-red-700 text-white">
-        <div className="container px-4-1 text-center">
+        <div className="container py-4 text-center">
           <h2 className="text-3xl font-bold mb-6">✨ Bạn muốn học Võ Cổ Truyền? Hãy tham gia ngay! ✨</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Tham gia cùng chúng tôi để trải nghiệm tinh hoa võ thuật Việt Nam, rèn luyện thể chất và tinh thần.
