@@ -124,7 +124,7 @@ export default function Home() {
                   <Calendar className="w-5 h-5 text-white" />
                 </div>
                 <div className="md:w-1/2 md:pl-12 mt-4 md:mt-0">
-                  <div className="h-32 md:h-40 relative rounded-lg overflow-hidden shadow-md">
+                  <div className="h-32 md:h-[18rem] relative rounded-lg overflow-hidden shadow-md">
                     <Image
                       src="/homepage-03.jpg?height=300&width=500"
                       alt="Thành lập Hội Võ Cổ Truyền TP.HCM"
@@ -147,7 +147,7 @@ export default function Home() {
                   <Calendar className="w-5 h-5 text-white" />
                 </div>
                 <div className="md:w-1/2 md:pr-12 md:text-right mt-4 md:mt-0">
-                  <div className="h-32 md:h-40 relative rounded-lg overflow-hidden shadow-md">
+                  <div className="h-32 md:h-[18rem] relative rounded-lg overflow-hidden shadow-md">
                     <Image
                       src="/giao-luu-quoc-te.jpg?height=300&width=500"
                       alt="Giao lưu quốc tế"
@@ -172,7 +172,7 @@ export default function Home() {
                   <Calendar className="w-5 h-5 text-white" />
                 </div>
                 <div className="md:w-1/2 md:pl-12 mt-4 md:mt-0">
-                  <div className="h-32 md:h-40 relative rounded-lg overflow-hidden shadow-md">
+                  <div className="h-32 md:h-[18rem] relative rounded-lg overflow-hidden shadow-md">
                     <Image
                       src="/2014-01.jpg?height=300&width=500"
                       alt="Thành lập Liên đoàn Võ Cổ Truyền TP.HCM"
@@ -197,7 +197,7 @@ export default function Home() {
                   <Calendar className="w-5 h-5 text-white" />
                 </div>
                 <div className="md:w-1/2 md:pr-12 md:text-right mt-4 md:mt-0">
-                  <div className="h-32 md:h-40 relative rounded-lg overflow-hidden shadow-md">
+                  <div className="h-32 md:h-[18rem] relative rounded-lg overflow-hidden shadow-md">
                     <Image
                       src="/dai-hoi-bch-nhiem-ky-2.JPG?height=300&width=500"
                       alt="Đại hội BCH nhiệm kỳ 2"
@@ -222,7 +222,7 @@ export default function Home() {
                   <Calendar className="w-5 h-5 text-white" />
                 </div>
                 <div className="md:w-1/2 md:pl-12 mt-4 md:mt-0">
-                  <div className="h-32 md:h-40 relative rounded-lg overflow-hidden shadow-md">
+                  <div className="h-32 md:h-[18rem] relative rounded-lg overflow-hidden shadow-md">
                     <Image
                       src="/2023-2024.JPG?height=300&width=500"
                       alt="Đại hội BCH nhiệm kỳ 3"
@@ -447,89 +447,6 @@ export default function Home() {
               </Card>
             </TabsContent>
           </Tabs>
-        </div>
-      </section>
-
-      {/* Key Figures Section */}
-      <section id="news" className="py-16 bg-gray-50">
-        <div className="container px-4">
-          <h2 className="text-3xl font-bold mb-12 text-center text-red-700">
-            Những Nhân Vật Tiêu Biểu - Lãnh Đạo Liên Đoàn
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <Card className="overflow-hidden h-full">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-0 h-full">
-                <div className="h-64 md:h-auto relative">
-                  <Image
-                    src="/Thay-Le-Kim-Hoa.jpg?height=400&width=300"
-                    alt="Cố ĐVS QT Lê Kim Hòa"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="md:col-span-2 p-6">
-                  <h3 className="text-xl font-bold mb-2">Cố ĐVS QT Lê Kim Hòa (1950-2024)</h3>
-                  <ul className="space-y-2 text-gray-700">
-                    <li className="flex items-start">
-                      <ChevronRight className="w-5 h-5 text-red-600 mt-0.5 mr-2 flex-shrink-0" />
-                      <span>Chưởng môn sáng lập Môn phái Thanh Long Võ Đạo</span>
-                    </li>
-                    <li className="flex items-start">
-                      <ChevronRight className="w-5 h-5 text-red-600 mt-0.5 mr-2 flex-shrink-0" />
-                      <span>Phó CT kiêm trưởng BCM Liên đoàn Võ thuật cổ truyền Việt Nam</span>
-                    </li>
-                    <li className="flex items-start">
-                      <ChevronRight className="w-5 h-5 text-red-600 mt-0.5 mr-2 flex-shrink-0" />
-                      <span>Phó CT kiêm Trưởng ban chuyên môn Liên đoàn Thế giới Võ cổ truyền Việt Nam (WFVV)</span>
-                    </li>
-                    <li className="flex items-start">
-                      <ChevronRight className="w-5 h-5 text-red-600 mt-0.5 mr-2 flex-shrink-0" />
-                      <span>Chủ tịch LĐ VCT TP.HCM nhiệm kỳ 1, 2, 3</span>
-                    </li>
-                    <li className="flex items-start">
-                      <ChevronRight className="w-5 h-5 text-red-600 mt-0.5 mr-2 flex-shrink-0" />
-                      <span>Có công lớn trong việc quảng bá và phát triển võ cổ truyền</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="overflow-hidden h-full">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-0 h-full">
-                <div className="h-64 md:h-auto relative">
-                  <Image
-                    src="/dvs-Ha-Thi-Yen-Oanh.JPG?height=400&width=300"
-                    alt="ĐVS Hà Thị Yến Oanh"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div className="md:col-span-2 p-6 h-full">
-                  <h3 className="text-xl font-bold mb-2">ĐVS Hà Thị Yến Oanh</h3>
-                  <ul className="space-y-2 text-gray-700">
-                    <li className="flex items-start">
-                      <ChevronRight className="w-5 h-5 text-red-600 mt-0.5 mr-2 flex-shrink-0" />
-                      <span>Sinh năm 1974</span>
-                    </li>
-                    <li className="flex items-start">
-                      <ChevronRight className="w-5 h-5 text-red-600 mt-0.5 mr-2 flex-shrink-0" />
-                      <span>Tân Chủ tịch Liên đoàn Võ Cổ Truyền TP.HCM (từ 30/08/2024)</span>
-                    </li>
-                    <li className="flex items-start">
-                      <ChevronRight className="w-5 h-5 text-red-600 mt-0.5 mr-2 flex-shrink-0" />
-                      <span>Có nhiều đóng góp cho sự phát triển của Võ Cổ Truyền Việt Nam</span>
-                    </li>
-                    <li className="flex items-start">
-                      <ChevronRight className="w-5 h-5 text-red-600 mt-0.5 mr-2 flex-shrink-0" />
-                      <span>Tiếp nối sự nghiệp phát triển Võ Cổ Truyền của cố ĐVS QT Lê Kim Hòa</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </Card>
-          </div>
         </div>
       </section>
 
